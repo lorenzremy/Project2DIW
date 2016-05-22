@@ -41,6 +41,11 @@ nav ul li a
     text-align: center;
 }
 
+nav ul li a:hover
+{
+    color: #105B57;
+}
+
 .sub-nav
 {
     background-color: #53A4D6;
@@ -57,6 +62,7 @@ nav ul li a
 {
     margin-left: 15px;
     margin-top: 10px;
+    margin-right: 5px;
 }
 
 .sub-nav ul li a
@@ -66,6 +72,12 @@ nav ul li a
     color: #0F4555;
     font-size: 13px;
     text-align: center;
+
+}
+
+.sub-nav ul li a:hover
+{
+    color: white;
 }
 
 .banner
@@ -74,16 +86,52 @@ nav ul li a
     background-image: url("../images/journaal.png");
     background-position: 30%;
     background-size: 100% auto;
+    align-items: center;
+    display: flex;
+    justify-content: center;
 }
 
 .banner img
 {
     max-width: 600px;
-    height: auto
+    height: auto;
 }
 
 .sub-banner
 {
     background-color: #53A4D6;
-    height: 40px;
+    height: 25px;
+}
+
+.description
+{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+}
+
+.description h2
+{
+    margin-bottom: 10px;
+}
+
+.description p
+{
+    width: 60%;
+    text-align: justify;
+    margin-bottom: 20px;
+    line-height: 1.2;
+    font-weight: 400;
+}
+
+.videotool
+{
+    height: 250px;
+}
+
+footer
+{
+    height: 60px;
+    background-color: #63C6C3;
 }
