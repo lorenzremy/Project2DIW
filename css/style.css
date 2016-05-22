@@ -9,81 +9,81 @@ nav
     background-color: #63C6C3;
     color: white;
 }
- nav ul
- {
-     display: flex;
- }
+nav ul
+{
+    display: flex;
+}
 
- nav ul li
- {
-     margin-left: 15px;
-     margin-top: 20px;
+nav ul li
+{
+    margin-left: 15px;
+    margin-top: 20px;
 
- }
+}
 
- .logo
- {
-     margin-top: 7px;
- }
+.logo
+{
+    margin-top: 7px;
+}
 
- .logo img
- {
-     width: 75px;
-     height: auto;
- }
+.logo img
+{
+    width: 75px;
+    height: auto;
+}
 
- nav ul li a
- {
-     text-decoration: none;
-     color: white;
-     font-weight: bold;
-     font-size: 20px;
-     text-align: center;
- }
+nav ul li a
+{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+}
 
- .sub-nav
- {
-     background-color: #53A4D6;
-     height: 40px;
- }
+.sub-nav
+{
+    background-color: #53A4D6;
+    height: 40px;
+}
 
- .sub-nav ul
- {
-     display: flex;
-     margin-left: 20px;
- }
+.sub-nav ul
+{
+    display: flex;
+    margin-left: 20px;
+}
 
- .sub-nav ul li
- {
-     margin-left: 15px;
-     margin-top: 10px;
- }
+.sub-nav ul li
+{
+    margin-left: 15px;
+    margin-top: 10px;
+}
 
- .sub-nav ul li a
- {
-     text-decoration: none;
-     font-weight: bold;
-     color: #0F4555;
-     font-size: 13px;
-     text-align: center;
- }
+.sub-nav ul li a
+{
+    text-decoration: none;
+    font-weight: bold;
+    color: #0F4555;
+    font-size: 13px;
+    text-align: center;
+}
 
- .banner
- {
-     height: 300px;
-     background-image: url("../images/journaal.png");
-     background-position: 30%;
-     background-size: 100% auto;
- }
+.banner
+{
+    height: 300px;
+    background-image: url("../images/journaal.png");
+    background-position: 30%;
+    background-size: 100% auto;
+}
 
- .banner img
- {
-     max-width: 600px;
-     height: auto
- }
+.banner img
+{
+    max-width: 600px;
+    height: auto
+}
 
- .sub-banner
- {
-     background-color: #53A4D6;
-     height: 40px;
- }
+.sub-banner
+{
+    background-color: #53A4D6;
+    height: 40px;
+}
