@@ -93,7 +93,7 @@ nav ul li a:hover
 
 .banner img
 {
-    max-width: 300px;
+    max-width: 600px;
     height: auto;
 }
 
@@ -105,16 +105,10 @@ nav ul li a:hover
 
 .description
 {
-    width: 60%;
+    width: 50%;
     margin-left: auto;
     margin-right: auto;
     margin-top: 40px;
-}
-
-.description h1
-{
-    font-size: 25px;
-    margin-bottom: 10px;
 }
 
 .description h2
@@ -124,7 +118,7 @@ nav ul li a:hover
 
 .description p
 {
-    width: 60%;
+    width: 100%;
     text-align: justify;
     margin-bottom: 20px;
     line-height: 1.2;
@@ -134,8 +128,85 @@ nav ul li a:hover
 .videotool
 {
     height: 250px;
+    display: block;
+    margin: auto;
+    width: 60%;
+    
 }
 
+.video
+{
+    float: left;
+    display: block;
+    width: 40%;
+}
+.formulier
+{
+    float: right;
+    display: block;
+    width: 55%;
+    border-width: 3px;    
+    border: solid;
+    border-color: darkblue;
+    margin-left: 20px;
+}
+
+.formulierblock
+{
+    display: block;
+    margin-bottom: 10px;
+}
+
+.TSbeschrijving
+{
+    float:left; 
+    display:inline;  
+}
+
+.timestamps
+{
+    float:left; display:inline;
+    margin-right: 10px;
+}
+.vantot
+{
+    float:left; display:inline;
+    margin-right: 10px;
+    
+}
+/*.newline
+{
+    display: block;    
+}*/
+.delen
+{
+    display: block;
+    margin: auto;
+    width: 140px;
+    margin-top: 50px;
+}
+.knopdelen
+{
+    display: block;
+    margin: auto;
+    width: 50px;
+    margin top: 10px;
+    margin-bottom: 40px;
+}
+
+.probeerknop
+{
+    display:block;
+    background-color: dodgerblue;
+    color: white;
+    width:210px;
+    margin-left:auto;
+    margin-right:auto;
+    padding:20px;
+    margin-top:30px;
+    border-radius:10px;
+    margin-bottom:50px;
+}
 footer
 {
     height: 60px;
