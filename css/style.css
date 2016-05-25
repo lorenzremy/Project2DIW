@@ -80,6 +80,10 @@ nav ul li a:hover
     color: white;
 }
 
+section .description
+{
+    margin-bottom: 20px;
+}
 .banner
 {
     height: 300px;
@@ -93,7 +97,7 @@ nav ul li a:hover
 
 .banner img
 {
-    max-width: 600px;
+    max-width: 350px;
     height: auto;
 }
 
@@ -109,6 +113,12 @@ nav ul li a:hover
     margin-left: auto;
     margin-right: auto;
     margin-top: 40px;
+}
+
+.description h1
+{
+    margin-bottom: 10px;
+    font-size: 25px;
 }
 
 .description h2
@@ -333,4 +343,18 @@ float: left;
     width: 93%;
     display: block;
     float: right;
+}
+
+footer
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer p
+{
+   font-weight: bold;
+    color: #0F4555;
+
 }
