@@ -127,10 +127,17 @@ nav ul li a:hover
 
 .videotool
 {
-    height: 250px;
+    height: 400px;
     display: block;
     margin: auto;
     width: 60%;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    /*border-width: 3px;    
+    border: solid;
+    border-color: darkblue;*/
+    background-color:aliceblue;
     
 }
 
@@ -138,18 +145,19 @@ nav ul li a:hover
 {
     float: left;
     display: block;
-    width: 40%;
+    width: 35%;
 }
 .formulier
 {
     float: right;
     display: block;
-    width: 55%;
-    border-width: 3px;    
+    width: 50%;
+    /*border-width: 3px;    
     border: solid;
-    border-color: darkblue;
-    margin-left: 20px;
+    border-color: darkblue;*/
+    margin-left: 30px;
     justify-content: center;
+    padding-left: 0px;
 }
 
 .formulierblock
@@ -184,61 +192,145 @@ nav ul li a:hover
 {
     display: block;
     margin: auto;
-    width: 140px;
+    width: 400px;
     margin-top: 50px;
 }
 .knopdelen
 {
     display: block;
     margin: auto;
-    width: 50px;
+    width: 200px;
     margin top: 10px;
     margin-bottom: 40px;
+    margin-top: 20px;
 }
 
 .probeerknop
 {
-    display:block;
+    display: inline-block;
     background-color: dodgerblue;
     color: white;
     width:210px;
-    margin-left:auto;
-    margin-right:auto;
-    padding:20px;
+    padding:30px;
     margin-top:30px;
-    border-radius:10px;
+    /*border-radius:10px;*/
     margin-bottom:50px;
+    float: left;
+    position: relative;
+    left: -50%;
+    background-image: url("../images/button.png");
+    background-repeat: no-repeat;
+    /*background-attachment: fixed;*/
+    background-position: center; 
+    border: none;
 }
+
+.probeerknop:active
+{
+    background-color: aquamarine;
+}
+
+.bottom
+{
+        float: left;
+    position: relative;
+    left: 50%;
+}
+
+.startstop
+{
+    display: block;
+}
+
 .timestampknopstart
 {
         display:block;
     background-color: dodgerblue;
     color: white;
     width:150px;
-    margin-left:auto;
-    margin-right:auto;
+    /*margin-left:auto;
+    margin-right:auto;*/
     padding:10px;
     margin-top:20px;
-    border-radius:10px;
+    /*border-radius:10px;*/
     margin-bottom:50px;
     float: left;
+     border:none;
 }
+
+.timestampknopstart:active
+{
+    background-color: aquamarine;
+}
+
 .timestampknopeinde
 {
-        display:block;
+    display:block;
     background-color: dodgerblue;
     color: white;
     width:150px;
-    margin-left:auto;
-    margin-right:auto;
+    /*margin-left:auto;
+    margin-right:auto;*/
     padding:10px;
     margin-top:20px;
-    border-radius:10px;
+    /*border-radius:10px;*/
     margin-bottom:50px;
+    margin-right: 55px;
     float: right;
+     border:none;
 }
+
+.timestampknopeinde:active
+{
+    background-color: aquamarine;
+}
+
+
 footer
 {
     height: 60px;
     background-color: #63C6C3;
+}
+
+.boven
+{
+    width: 100%;
+    display: block;
+    /*border-width: 3px;    
+    border: solid;
+    border-color: darkblue;*/
+    float: left;
+    padding-bottom: 30px;
+}
+
+.dropdown
+{
+    float: left;
+    margin-left: 10px;
+}
+.aantal
+{
+    float: left;
+    
+}
+
+.titel
+{
+    float: right;
+    margin-left: 20px;
+    width: 70%;
+}
+
+.titellabel
+{
+float: left;
+    display: block;
+}
+
+.titelfield
+{
+    margin-left: 10px;
+    width: 93%;
+    display: block;
+    float: right;
 }
