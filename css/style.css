@@ -137,6 +137,18 @@ section .description
     margin-bottom: 90px;
 }
 
+.description iframe
+{
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+.iframedescription
+{
+    padding-bottom: 30px;
+}
+
 .description h1
 {
     margin-bottom: 10px;
@@ -304,6 +316,7 @@ section .description
     margin: auto;
     width: 400px;
     margin-top: 50px;
+    text-align: center;
 }
 .knopdelen
 {
