@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Project 2</title>
+    <link href="css/reset.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" />
+
+
+</head>
+<body>
+
+   
+    <nav>
+        <ul>
+            <li class="logo"><a href="#"><img src="images/canvas.png" alt="canvas logo"></a></li>
+            <li><a href="#">kijk online</a></li>
+            <li><a href="#">tv-gids</a></li>
+            <li><a href="#">programma's</a></li>
+        </ul>
+    </nav>
+    <div class="sub-nav">
+        <ul>
+            <li><a href="#">tv-gids</a></li>
+            <li><a href="#">de ideale wereld</a></li>
+            <li><a href="#">publiek</a></li>
+            <li><a href="#">ons vriendenboekje</a></li>
+            <li><a href="#">speelhoek</a></li>
+        </ul>
+    </div>
+
+    <div class="banner">
+        <p><img src="images/diylogo.png" alt="logo"></p>
+    </div>
+    <div class="sub-banner"></div>
+
+    <section class="description">
+        <p>
+            Omdat de actualiteit redelijk saai en droog kan zijn, maken wij bij de Ideale Wereld elke aflevering een samenvatting voor onze kijkers. We vinden het zeer belangrijk dat onze liever kijkers op de hoogte zijn van de belangrijke gebeurtenissen in de wereld.
+        </p>
+
+        <h2>NU IS HET JOUW KANS!</h2>
+
+        <p>
+            We geven jou de kans om je plicht te vervullen en je vrienden en familie op je sociale media op de hoogte te houden van de actualiteit. Maak hieronder een leuke samenvatting van de actualiteit en laat zien hoeveel jij weet over de wereld!
+        </p>
+    </section>
+
+    <section class="videotool">
+
+           <section class="boven">
+                    <section class="aantal">
+                        <p>Aantal timestamps:</p>
+                    </section>
+                    <section class="dropdown" id="dropdown" onchange="dropdownFunctionthis.value);">
+                        <select>
+                            <option value="1">2</option>
+                            <option value="2">3</option>
+                            <option value="3">4</option>
+                            <option value="4">5</option>
+                        </select>
+                    </section>
+                    
+                    <section class="titel">
+                        <label for="timestamp1" class="titellabel">titel:</label>
+                        <input type="text" name="timestamp2" placeholder="Grappige titel" id="TS2" class="titelfield"/>
+                        
+                    </section>
+           </section>
+           
+           
+            <section class="video">
+  
+                <video id="myvideo" width="420">
+                    <source src="hetjournaal240915.mp4" type="video/mp4"></source>
+                    <source src="hetjournaal240915.m4a" type="video/m4a"></source>
+                    Je browser ondersteunt geen html5 video
+                </video>
+                        <!--<button type="submit" class="timestampknopstart">start tijdmarkering</button>
+                        <button type="submit" class="timestampknopeinde">einde tijdmarkering</button>-->
+            </section>
+            <section class="formulier">
+                <!--<form action="" method="post" enctype="multipart/form-data">-->
+                    <section class="formulierblock">
+                        <h2>Het nieuws zoals jij het ziet</h2>
+                    </section>
+
+                    <section class="formulierblock">
+                            <label for="timestamp1" class="TSbeschrijving">timestamp 1:</label><br />
+                        <section class="newline">
+                            <p class="vantot"> van </p>
+                            <input type="text" name="timestamp1" placeholder="0:00:0" id="TS1start" class="timestamps"/>
+                            <p class="vantot"> tot </p>
+                            <input type="text" name="timestamp1einde" placeholder="0:00:0" id="TS1end" class="timestamps"/>                                     <br />
+                        </section>
+                    </section>
+                    <section class="formulierblock">
+                        <label for="timestamp2" class="TSbeschrijving">timestamp 2:</label>
+                        <br />
+                        <section class="newline">
+                            <p class="vantot"> van </p>
+                            <input type="text" name="timestamp2" placeholder="0:00:0" id="TS2start" class="timestamps"/>
+                            <p class="vantot"> tot </p>
+                            <input type="text" name="timestamp2" placeholder="0:00:0" id="TS2end" class="timestamps"/>
+                            <br />
+                        </section>
+                    </section>
+                    <section class="formulierblock">
+                        <label for="timestamp3" class="TSbeschrijving">timestamp 2:</label>
+                        <br />
+                        <section class="newline">
+                            <p class="vantot"> van </p>
+                            <input type="text" name="timestamp3" placeholder="0:00:0" id="TS3start" class="timestamps"/>
+                            <p class="vantot"> tot </p>
+                            <input type="text" name="timestamp3" placeholder="0:00:0" id="TS3end" class="timestamps"/>
+                            <br />
+                        </section>
+                    </section>
+                    <section class="startstop">
+                    <button type="submit" class="timestampknopstart" id="addstart">start tijdmarkering</button>
+                    <button type="submit" class="timestampknopeinde" id="addend">einde tijdmarkering</button>
+                </section>
+   
+                <!--</form>-->
+            </section>
+            <section class="bottom">
+            <button type="submit" class="probeerknop" id="probeerknop">test</button>
+                        <!--<button type="submit" class="probeerknop" id="playme">playme</button>-->
+            </section>
+    </section>
+    <section class="delen">
+    <h2>Deel je creatie nu met #deidealeactualiteit en mischien word ook jij gefeatured in het programma!</h2>
+    <section class="knopdelen">
+   <iframe src="https://www.facebook.com/plugins/share_button.php?href=https%3A%2F%2Flocalhost%2FprojectDIW.html&layout=button&mobile_iframe=true&width=58&height=20&appId" width="58" height="20" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+   
+   <a href="https://twitter.com/share" class="twitter-share-button" data-url="" data-text="#deidealeactualiteit">Tweet</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+   </section>
+   </section>
+    <footer>
+
+        
+    </footer>
+    
+        <script src="videots.js"></script>
+
+</body>
+</html>
