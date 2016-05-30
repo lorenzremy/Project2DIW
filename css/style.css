@@ -192,6 +192,7 @@ section .description
     margin: 0 auto;
     margin-top: 75px;
     margin-bottom: 5px;
+    padding-left: 40px;
 }
 
 .quote
