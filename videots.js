@@ -43,15 +43,3 @@ document.getElementsByClassName('twitter-share-button').data-url = urlvanpagina 
         this.pause();
     }
 });*/
-
-/*function jsFunction(value)
-{
-
-var countBox =1;
-var boxName = 0;
-function addInput()
-{
-     var boxName="textBox"+countBox; 
-document.getElementById('responce').innerHTML+='<br/><input type="text" id="'+boxName+'" value="'+boxName+'" "  /><br/>';
-     countBox += 1;
-}*/
